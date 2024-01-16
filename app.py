@@ -59,7 +59,7 @@ if generate:
                 email = get_email(sender, receiver, about, email_type.lower(), use_emojis, length)
                 st.write(email)
             else:
-                st.error("Please fill in all fields")
+                st.error("Please fill in all the fields.")
         except Exception as e:
             st.error("An error occurred. Please try again later.")
             st.error(e)
