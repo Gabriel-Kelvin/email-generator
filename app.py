@@ -2,8 +2,6 @@ from requests import get
 import streamlit as st
 import google.generativeai as genai
 
-# Configure Gemini
-genai.configure(api_key=st.secrets['GOOGLE_API_KEY'])
 
 # Initialise Gemini model
 gemini = genai.GenerativeModel('gemini-pro')
