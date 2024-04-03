@@ -25,6 +25,10 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
+st.title("Automated Email Generator App")
+coder = '<h1 style="font-family:Times-New-Roman; color:Red ; font-size: 20px;">by Gabriel Kelvin</h1>'
+st.markdown(coder,unsafe_allow_html=True)
+
 st.header("Write emails like a pro")
 st.write("Describe the type of email you want by filling in the following fields. Gemini will then generate an email for you.")
 
